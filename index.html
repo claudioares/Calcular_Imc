@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calcula imc</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+     <!--banner-->
+     <main>
+          <div class="banner">
+          </div>     
+     </main>
+     <!--fim/banner-->
+     <!--começo do formulario-->
+  <form>
+       <!--cabeçalhos-->
+       <h2 id="titulo">Calculo do IMC</h2>
+       <p id="subtitulo">Complete com seus dados</p>
+       <!--fim d cabeçalho-->
+
+       <!----------------------------------->
+     <fieldset class="grupo">
+          <!--altura/peso-->
+          <div class="campo">
+               <label for="peso"><strong> Peso (kg)</strong></label>
+          </div>
+          <div class="box">
+               <input type="number" name="peso" id="peso" placeholder="Exemplo:80" required>
+          </div>
+          <br>
+          <div class="campo">
+               <label for="altura"><strong>Altura (cm)</strong></label>
+          </div>
+          <div class="box">
+               <input type="number" name="altura" id="altura" placeholder="Exemplo:182" required>
+          </div>
+          <!--fim/altura/peso-->
+
+          <!--botao-->
+          <div id="classBotao">
+               <div class="containerBotao">
+                    <button type="submit" name="button" id="button">Calcular</button>
+               </div>
+          </div>
+          <!--fim do botao-->
+          <!--imc-->
+          <div class="campo">
+               <label for="imc"><strong>IMC</strong></label>
+          </div>
+          <div class="box">
+          <input name="imc" id="imc">
+          </div>
+          <!--fim do imc-->
+     </fieldset>
+ </form> <!--fim do formulario-->
+ <div class="rodape">
+     <footer>
+          <p>Desenvolvido por: Cláudio Soares</p>
+          <p class="links">
+               <a href="https://www.linkedin.com/in/cl%C3%A1udio-soares-4b9b14216/" target="_blank" class="links">Linkedin</a>
+               <a href="https://github.com/claudioares" target="_blank" class="links">GitHub</a>
+          </p>
+      </footer>
+ </div>
+ <script src="js/scripts.js" defer></script>
+</body>
+</html>

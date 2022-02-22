@@ -1,0 +1,90 @@
+body{
+    background-color: rgb(39, 3, 24);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 4mm;
+}
+.banner{
+    background-image: linear-gradient(rgba(19, 1, 12, 0.678),rgba(95, 28, 56, 0.5)100%), url("../assets/logoCubos.png");
+    height: 400px;
+    background-size: cover;
+    display: flex;
+    border-radius: 10px;
+}
+
+#titulo{
+    color: white;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    margin-left: auto;
+    margin-top: 1%;
+}
+#subtitulo{
+    color: white;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    margin-left: auto;
+}
+fieldset{
+    margin-top: 2%;
+    border: 5%;
+    border-radius: 10px;
+    border-color: rgb(255, 255, 255);
+    border-style:double;
+}
+.campo{
+    padding: 2px;
+    color: white;
+    flood-opacity: 10%;
+    margin-top: 5px;
+    text-align: center;
+}
+.box{
+    border-radius: 5px;
+    align-items: center;
+    text-align: center;
+}
+
+
+
+#classBotao{
+    margin-top: 2px;
+    text-align: center;
+    
+}
+.containerBotao{
+    align-items: center;
+}
+#button{
+    border-radius: 5px;
+    background-color: rgb(39, 3, 24);
+    color: rgb(255, 255, 255);
+    border-style: solid;
+    font-size: 12px;
+    cursor: pointer;
+    transition: .1s ease all;
+}
+#button:hover{
+    background-color:rgb(211, 204, 208);
+    color:rgb(39, 3, 24);
+}
+
+.rodape{
+    color: white;
+    text-align: center;
+}
+
+#imc{
+    color: white;
+    height: 40px;
+    background-color: black;
+    border-radius: 5px;
+    align-items: center;
+    text-align: center;
+}
+
+.links{
+    color: white;
+    margin-top: 5px;
+}
