@@ -1,90 +1,122 @@
-body{
-    background-color: rgb(39, 3, 24);
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    font-size: 4mm;
+.container_main{
+    background-color: rgb(255, 255, 255);
+    
+    height: 100vh;
 }
-.banner{
-    background-image: linear-gradient(rgba(19, 1, 12, 0.678),rgba(95, 28, 56, 0.5)100%), url("../assets/logoCubos.png");
-    height: 400px;
-    background-size: cover;
+.header{
     display: flex;
-    border-radius: 10px;
-}
+    justify-content: space-between;
+    align-items: center;
 
-#titulo{
+    padding: 0 5rem;
+
     color: white;
-    text-align: center;
-    margin: 0;
-    padding: 0;
-    margin-left: auto;
-    margin-top: 1%;
+    background: rgb(124,17,42);
+    background: linear-gradient(90deg, rgb(58, 10, 21) 0%, rgb(85, 17, 52) 35%, rgb(232, 235, 179) 100%);
+    height: 14rem;
 }
-#subtitulo{
+.header h3:hover{
+    opacity: 0.8;
+}
+.header img{
+    width: 200px;
+    height: 200px;
+}
+.container_image_section{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    background-image:linear-gradient(rgba(5, 2, 2, 0.658),rgba(54, 50, 10, 0.5)100%), url('../assets/bg_malhando.jpg');
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-color: rgb(148, 46, 46);
     color: white;
-    text-align: center;
-    margin: 0;
-    padding: 0;
-    margin-left: auto;
+
+    height:calc(100% - 14rem);
 }
-fieldset{
-    margin-top: 2%;
-    border: 5%;
-    border-radius: 10px;
-    border-color: rgb(255, 255, 255);
-    border-style:double;
+.section{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    width: 100%;
+    height: 100%;
+}
+.presents_titles{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+
+    margin-bottom: 6rem;
+}
+.container_form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    width: 100%;
+    height: 200px;
+    gap: 3rem;
 }
 .campo{
-    padding: 2px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    gap: 0.5rem;
+}
+.campo input{
+    text-align: center;
+    padding: 0 0.5rem;
+
+    height: 3rem;
+}
+.div_button_result{
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    max-width:100%;
+    gap: 0.5rem;
+}
+#imc{
+    height: 5rem;
+    max-width: 19rem ;
+
     color: white;
-    flood-opacity: 10%;
-    margin-top: 5px;
-    text-align: center;
+    background-color: black;
+
+    font-size: 2rem;
+
+    border: none;
 }
-.box{
-    border-radius: 5px;
+.container_button{
+    display: flex;
     align-items: center;
-    text-align: center;
-}
+    justify-content: center;
 
-
-
-#classBotao{
-    margin-top: 2px;
-    text-align: center;
-    
-}
-.containerBotao{
-    align-items: center;
+    height: 5rem;
+    width:100%;
 }
 #button{
-    border-radius: 5px;
-    background-color: rgb(39, 3, 24);
-    color: rgb(255, 255, 255);
-    border-style: solid;
-    font-size: 12px;
+    width: 19rem;
+    height: 4rem;
+
+    background-color:rgb(65, 56, 11);
+    color: white;
+
     cursor: pointer;
-    transition: .1s ease all;
+    border: none;
+    border-radius: 0.5rem;
 }
 #button:hover{
-    background-color:rgb(211, 204, 208);
-    color:rgb(39, 3, 24);
-}
-
-.rodape{
-    color: white;
-    text-align: center;
-}
-
-#imc{
-    color: white;
-    height: 40px;
-    background-color: black;
-    border-radius: 5px;
-    align-items: center;
-    text-align: center;
-}
-
-.links{
-    color: white;
-    margin-top: 5px;
+    opacity: 0.8;
+    border: 1px solid white;
 }

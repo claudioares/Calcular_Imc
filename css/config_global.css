@@ -1,0 +1,28 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  html {
+    font-size: 62.5%;
+  }
+  
+  body {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+        'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+        sans-serif;
+  
+    min-width:100vw;
+    min-height:100vh;
+  
+    font-size: 1.6rem;
+    margin: 0;
+  }
+  li {
+    list-style-type: none;
+  }
+  @media (max-width: 503px){
+    .header h3{
+      display: none;
+    }
+  }
