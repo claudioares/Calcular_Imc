@@ -25,24 +25,40 @@
          
                     <form class="container_form">
                          <div class="campo">
-                              <label for="peso"><strong> Peso (kg)</strong></label>
-                              <input type="text" name="peso" id="peso" placeholder="Exemplo:80" required>
-                         </div>
-      
-                         <div class="campo">
                               <label for="altura"><strong>Altura (cm)</strong></label>
-                              <input type="text" name="altura" id="altura" placeholder="Exemplo:182" required>
+                              <input 
+                                   type="text" 
+                                   name="altura" 
+                                   id="altura"
+                                   class="input"
+                                   placeholder="Exemplo:182" 
+                                   required
+                              >
                          </div>
                         
+                         <div class="campo">
+                              <label for="peso"><strong> Peso (kg)</strong></label>
+                              <input 
+                                   type="text" 
+                                   name="peso" 
+                                   id="peso"
+                                   class="input"
+                                   placeholder="Exemplo:80" 
+                                   required
+                              >
+                         </div>
+      
                         
                          <div class="div_button_result">
                               <div class="container_button">
                                    <button type="submit" name="button" id="button">Calcular</button>
                               </div>
                            
-                              <div class="campo">
-                                    <label for="imc"><strong>IMC</strong></label>
-                                    <input name="imc" id="imc">
+                              <div class="imc_result">
+                                    <strong>Seu IMC É:</strong>
+                                    <div class="result">
+                                         <p class="imc_result_p"></p>
+                                    </div>
                               </div>
                          </div>
                     </form>

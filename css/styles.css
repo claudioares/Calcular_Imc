@@ -120,3 +120,35 @@
     opacity: 0.8;
     border: 1px solid white;
 }
+.imc_result{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: black;
+
+    gap: 0.5rem;
+    padding: 1rem;
+    width: 19rem;
+    height: 6rem;
+}
+.imc_result p{
+    color: rgb(232, 235, 179);
+}
+.imc_result .result{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+ 
+    width: 100%;
+    height: 100%;
+
+    border: 0.1rem solid white;
+}
+.imc_result_p{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+    width: 100%;
+    height: 100%;
+}
