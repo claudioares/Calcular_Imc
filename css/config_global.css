@@ -21,8 +21,30 @@
   li {
     list-style-type: none;
   }
+
   @media (max-width: 503px){
     .header h3{
       display: none;
+    }
+    .div_span_erro{
+      bottom: -5%;
+    }
+  }
+  @media (max-width: 414px) {
+    .presents_titles{
+     
+      width: 20.0rem;
+    }
+    .div_span_erro{
+      top: 44%;
+    }
+  }
+  @media (max-width: 320px) {
+    .container_main{
+      height: 100vh;
+    }
+    .container_section{
+      height: 100%;
+      max-width: 100%;
     }
   }

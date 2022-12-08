@@ -19,21 +19,35 @@
     opacity: 0.8;
 }
 .header img{
-    width: 200px;
-    height: 200px;
+    width: 20.0rem;
+    height: 20.0rem;
 }
-.container_image_section{
+.container_section{
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: space-between;
 
-    background-image:linear-gradient(rgba(5, 2, 2, 0.658),rgba(54, 50, 10, 0.5)100%), url('../assets/bg_malhando.jpg');
+    background-image:linear-gradient(rgba(5, 2, 2, 0.747),rgba(39, 37, 11, 0.596)100%), url('../assets/bg_malhando.jpg');
     background-repeat: no-repeat;
     background-size:cover;
     background-color: rgb(148, 46, 46);
     color: white;
 
+    padding: 0 15.0rem;
     height:calc(100% - 14rem);
+}
+.div_inf_imc{
+    display: flex;
+    gap: 5rem;
+
+    width: 30%;
+    height: 100%;
+    padding-top:50.0rem ;
+}
+.div_inf_imc p{
+    
+    width: 50.0rem;
+    height: 100%;
 }
 .section{
     display: flex;
@@ -51,7 +65,7 @@
     justify-content: center;
 
 
-    margin-bottom: 6rem;
+    margin-bottom: 10rem;
 }
 .container_form{
     display: flex;
@@ -60,7 +74,7 @@
     justify-content: center;
 
     width: 100%;
-    height: 200px;
+    height: 20.0rem;
     gap: 3rem;
 }
 .campo{
@@ -118,7 +132,7 @@
 }
 #button:hover{
     opacity: 0.8;
-    border: 1px solid white;
+    border: 0.1rem solid white;
 }
 .imc_result{
     display: flex;
@@ -151,4 +165,37 @@
     
     width: 100%;
     height: 100%;
+}
+.div_clear{
+    position: relative;
+    text-align: right;
+    width: 100%;
+    padding: 0 0.8rem;
+}
+.clear{
+    width: 6rem;
+    cursor: pointer;
+}
+.clear:hover{
+    opacity: 0.8;
+}
+.div_span_erro{
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    width: 100%;
+    height: 10rem;
+    bottom: 0;
+    color: rgb(221, 101, 101);
+}
+.active{
+    display: inline;
+}
+.inative{
+    display: none;
+}
+.div_inf_interpretation_imc{
+    width: 30%;
 }
